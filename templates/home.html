@@ -1,0 +1,11 @@
+<h1>Prediction of BankNote Authentication</h1>
+
+<form action= "/predict_file" method="POST" enctype="multipart/form-data">
+
+    <input type="file" id="myFile" name="file">
+    <input type="submit" value="Submit">
+</form>
+
+<h1>Predictions are:</h1>
+
+{{ prediction_text }}
